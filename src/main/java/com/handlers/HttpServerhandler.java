@@ -132,8 +132,6 @@ public class HttpServerhandler extends ChannelHandlerAdapter{
 	
 	/**
 	 * 简单处理常用几种 Content-Type 的 POST 内容（可自行扩展）
-	 * @param headers
-	 * @param content
 	 * @throws Exception
 	 */
 	private void dealWithContentType() throws Exception{
